@@ -471,3 +471,12 @@ main.sheet {
   .gb-form { grid-template-columns: 1fr; }
   .highlights { padding: 16px; }
 }
+
+/* 맨 아래 작은 관리자 링크 */
+.admin-link {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+}
+.admin-link a { color: #a0a6b1; }
+.admin-link a:hover { color: var(--blue); }
